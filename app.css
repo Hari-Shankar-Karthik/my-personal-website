@@ -1,0 +1,73 @@
+#navbar-top {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    background-color: #fdffb6;
+    opacity: 80%;
+}
+
+@media (min-width: 992px) {
+    #navbar-name {
+        font-weight: bold;
+    }
+}
+
+body {
+    background-color: #caffbf;
+}
+
+.section-heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 270%;
+}
+
+.section-description {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul.section-description {
+    list-style: none;
+}
+
+.section-photo {
+    height: 20em;
+}
+
+@media (min-width: 768px) {
+    .section-heading {
+        font-size: 350%;
+    }
+
+    .section-photo {
+        height: 25em;
+    }
+}
+
+@media (min-width: 992px) {
+    .section-heading {
+        font-size: 500%;
+    }
+
+    .section-description {
+        font-weight: 400;
+        font-size: 120%;
+    }
+
+    .section-photo {
+        height: auto;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+      color: black; /* Initial color */
+    }
+    50% {
+      color: red; /* Midway color (change to your desired color) */
+    }
+}
+
+#special {
+    animation: pulse 4.5s infinite;
+}
